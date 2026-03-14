@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Academic Portfolio of Sofia Arredondo Rivera, Economist.">
+    <title>Sofia Arredondo Rivera | Economist</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Merriweather:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body class="min-vh-100 d-flex flex-column" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="70">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white border-bottom" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold font-serif" href="index.html">Sofia Arredondo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto my-2 my-lg-0 gap-3">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Profile Section -->
+    <div class="container my-auto py-5 flex-grow-1 d-flex flex-column align-items-center justify-content-center gap-5">
+
+        <div class="position-relative w-100 mx-auto" style="max-width: 900px; margin-top: 5rem; margin-bottom: 5rem;">
+            <!-- Base Card (Envolvente Completa Bicolor) -->
+            <div class="position-absolute shadow d-flex"
+                style="top: -25px; bottom: -25px; left: -40px; right: 0px; z-index: 0;">
+                <!-- Franja Azul (alineada a la columna 5 de 12) -->
+                <div style="background-color: var(--primary-color); width: calc(41.666667% + 25px);"></div>
+                <!-- Franja Blanca -->
+                <div class="bg-white flex-grow-1"></div>
+            </div>
+
+            <!-- Main Content Card -->
+            <div class="row align-items-center bg-white position-relative m-0 vh-80" style="z-index: 1;">
+                <!-- Left Column: Profile View -->
+                <div class="col-md-5 p-5 text-center d-flex flex-column justify-content-center h-100"
+                    style="background-color: var(--neutral-color);">
+                    <img src="assets/img/perfil.jpg" alt="Sofia Arredondo Rivera"
+                        class="img-fluid rounded mb-4 mx-auto d-block shadow-sm"
+                        style="width: 250px; height: 350px; object-fit: cover; border: 0.5px solid white;">
+
+                    <div class="d-flex justify-content-between align-items-center mt-3 px-2">
+                        <a href="./assets/docs/CV_ArredondoSofia-1.pdf"
+                            class="btn rounded-pill px-4 fw-medium shadow-sm"
+                            style="background-color: var(--primary-color); color: white;">Download CV</a>
+                        <a href="https://www.linkedin.com/in/sofia-arredondo-rivera-b70691208/"
+                            style="color: var(--primary-color); transition: opacity 0.2s;"
+                            onmouseover="this.style.opacity='0.8'" onmouseout="this.style.opacity='1'">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                                class="bi bi-linkedin" viewBox="0 0 16 16">
+                                <path
+                                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column: Info -->
+                <div class="col-md-7 p-5">
+                    <h1 class="font-serif fw-bold mb-4" style="color: var(--primary-color); font-size: 2.0rem;">Sofia
+                        Arredondo Rivera</h1>
+                    <p class="fs-6 mb-3" style="color: #333;">
+                        I am an Economist (Pre-Doc) currently working at the Financial Research Unit at the Central Bank
+                        of Chile (CBC). Before jumping the CBC I worked for a year and a half at the Ministry of
+                        Economics and Industry of Chile. I hold a Bachelor's and a Master's degree in Economics from the
+                        University of Chile.
+                    </p>
+                    <p class="fs-6 mb-4" style="color: #333;">
+                        My research interests include Industrial Organization and Public Economics, with a focus on
+                        financial markets, education and health economics.
+                    </p>
+                    <p class="fs-6 mb-0" style="color: #333;">
+                        You can contact me at <a href="mailto:sarredondo@bcentral.cl"
+                            class="text-decoration-none border-bottom"
+                            style="color: var(--secondary-color); border-color: var(--secondary-color) !important;">sarredondo@bcentral.cl</a>
+                        or
+                        <a href="mailto:sofia.arredondorivera@gmail.com" class="text-decoration-none border-bottom"
+                            style="color: var(--secondary-color); border-color: var(--secondary-color) !important;">sofia.arredondorivera@gmail.com</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-2 mt-auto" style="z-index: 10;">
+        <div class="container text-center">
+            <p class="small text-white-50 mb-0">&copy; 2026 Sofia Arredondo</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

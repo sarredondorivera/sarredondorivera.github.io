@@ -1,0 +1,72 @@
+:root {
+  --primary-color: #1B1B3A;
+  --secondary-color: #5A189A;
+  --accent-color: #D4A373;
+  --neutral-color: #F4F4F9;
+}
+
+body {
+  background-color: var(--neutral-color);
+  background-image: url('../assets/img/fondo_educativo.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  /* Make sure there's a light overlay so text is readable if the image is too busy */
+  background-blend-mode: overlay;
+  background-color: rgba(244, 244, 249, 0.9); /* neutral color with opacity */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Typography styles using our palette */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--primary-color) !important;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+/* Nav */
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar .nav-link {
+  color: var(--primary-color);
+}
+.navbar .nav-link:hover, .navbar .nav-link.active {
+  color: var(--secondary-color) !important;
+  font-weight: 600;
+}
+
+/* Button */
+.btn-primary {
+  background-color: var(--accent-color) !important;
+  border-color: var(--accent-color) !important;
+  color: #fff !important;
+}
+
+.btn-primary:hover {
+  background-color: #c99361 !important; /* Slightly darker accent */
+  border-color: #c99361 !important;
+}
+
+.btn-cv {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.btn-cv:hover {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+/* Footer Background Override (if any bg-dark is used) */
+footer.bg-dark {
+  background-color: var(--primary-color) !important;
+}
